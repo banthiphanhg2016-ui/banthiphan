@@ -191,7 +191,7 @@ st.markdown("""
 st.markdown("""
 <div class="main-header">
     <h1>📘 TRỢ LÝ SOẠN GIÁO ÁN TỰ ĐỘNG (NLS)</h1>
-    <p>Tác giả: Lù Seo Sần - Trường PTDTBT Tiểu học Bản Ngò - ĐT: 097 1986 343</p>
+  Bàn Thị Phấn,Trường Tiểu học Vĩnh Hảo- 0962219618
 </div>
 """, unsafe_allow_html=True)
 
@@ -247,7 +247,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
     if not api_key: st.toast("Thiếu API Key!", icon="❌")
     elif not uploaded_files and not noidung_bosung and not has_framework: st.toast("Thiếu tài liệu!", icon="⚠️")
     else:
-        try:
+ 
             with st.spinner('AI đang soạn giáo án (Times New Roman 14pt, A4, Căn lề chuẩn)...'):
                 model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-09-2025')
                 
@@ -347,4 +347,4 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
 
 # --- CHÂN TRANG ---
 st.markdown("---")
-st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Lù Seo Sần - Trường PTDTBT Tiểu học Bản Ngò - ĐT: 097 1986 343</div>", unsafe_allow_html=True)
+Bàn Thị Phấn,Trường Tiểu học Vĩnh Hảo-0962219618, unsafe_allow_html=True)
